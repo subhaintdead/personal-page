@@ -82,7 +82,7 @@ background-color: var(--hover-header);
 
 
 
-.section__projects {
+.projects_sec {
       background-color: var(--bg);
       }
 
@@ -125,7 +125,7 @@ font-weight: bold;
     gap: 1rem;
 }
 
-.contact__heading {
+.contact_heading {
     color: var(--text);
     display: flex;
     align-items: center;
@@ -151,7 +151,7 @@ font-weight: bold;
     text-align:center;
 }
 
-.ion-icon{
+.contact__icons{
     height: 24px;
     width: 24px;
 }
