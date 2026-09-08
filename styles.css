@@ -153,12 +153,16 @@ padding-top: 3em;
 .projects_button {
     color:var(--text);
     background-color:var(--header) ;
-padding: 1rem 1.5rem;
+padding: 0.7rem 1.5rem;
 cursor:pointer;
+text-decoration:none;
+border-radius: 5px;
+text-align:center;
 }
 
-.projects_button__lt{
-font-weight: bold;
+.projects_button:hover{
+    background-color:var(--hover-header);
+    transition:all 450ms ease;
 }
 
 
