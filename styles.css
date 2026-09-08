@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root{
+    --header: #ef8354;
+    --bg: #2d3142;
+    --text: #ffffff;
+    --hover-header: #353535;
+    --project: #394b4d;
+}
+
+
+.inline {
+    display: inline;
+}
+
+.nav__bar{
+    position: fixed;
+    top: 0;
+    /* might need to change the z-index */
+    background-color: var(--header);
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid var(--hover-header);
+}
+
+.nav__bar ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.nav__bar li {
+    display: inline;
+    padding: 1em 1em;
+    height: 70px;
+}
+
+.nav__bar li:hover, .nav__bar li:focus{
+background-color: var(--hover-header);
+}
+
+.section_welcome{
+    background-color: var(--bg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section__h1 {
+    font-size: 2.5em;
+    color: var(--text);
+    text-align: center;
+}
+
+.section__p {
+    font-size: 1em;
+    color: var(--text);
+    text-align: center;
+}
+
+
+
+
+
+
+.section__projects {
+      background-color: var(--bg);
+      }
+
+
+.section__projects h2 {
+text-align: center;
+font-size: 2em;
+gap: 1em;
+color: var(--text);
+justify-content:center;
+}
+
+
+.div__button{
+    text-align:center;
+    padding-bottom:2rem;
+    
+}
+
+.projects__button {
+    color:var(--text);
+    background-color:var(--header) ;
+padding: 1rem 1.5rem;
+cursor:pointer;
+}
+
+.projects__button__lt{
+font-weight: bold;
+}
+
+
+
+.section__contact{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color:var(--project);
+    gap: 1rem;
+}
+
+.contact__heading {
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+.contact__heading h2{
+    color: var(--text);
+    font-size:3em;
+    text-align: center;
+}
+
+.contact__h2{
+    color:var(--text);
+}
+
+.contact__links{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.ion-icon{
+    height: 24px;
+    width: 24px;
+}
+
+.contact__links a{
+    color:var(--text);
+    padding:2rem;
+}
+
+.contact__links a:hover{
+    transform:translateY(5px);
+    transition: transform 0.5s ease;
+}
+
+
