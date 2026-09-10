@@ -26,4 +26,4 @@ and open it on port 8000
 (you may need to download http-server by typing in "y" if you haven't yet)
 
 
-credits: reference personal website by FCC
+credits: reference personal website by FCC, terminal by h2.nexus (thank you gng for free stuff)

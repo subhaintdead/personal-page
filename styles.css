@@ -219,4 +219,23 @@ text-align:center;
     transition: transform 0.5s ease;
 }
 
+.ter_wel{
+    height: 50vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: var(--project);
+    color:var(--text);
+
+}
+
+.terminal_sec {
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
 
